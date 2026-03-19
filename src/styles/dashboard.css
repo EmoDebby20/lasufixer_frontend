@@ -1,12 +1,11 @@
 .dashboard-deet {
   box-sizing:border-box;
-  min-height: 136vh; /* Full screen height */
+  min-height: 136vh; 
   display: flex;
   flex-direction: column;
-  justify-content:flex-start; /* Horizontal center */
+  justify-content:flex-start; 
   align-items:first baseline;
   background: rgb(59, 103, 179, 0.06);
-  /*color: rgb(59, 103, 179);*/
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 40px;
@@ -84,7 +83,6 @@
   border-radius: 6px;
   margin: 0;
   font-size: 16px;
-  /*font-weight: bold;*/
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
@@ -119,14 +117,14 @@
 }
 
 .foot-img{
-  width: 24px;           /* force same size */
+  width: 24px;           
   height: 24px;
   object-fit: contain;
   margin-bottom: 6px;
 }
 
 .foot-img-profile{
-  width: 24px;           /* force same size */
+  width: 24px;           
   height: 24px;
   object-fit: contain;
   margin-bottom: 6px;
@@ -141,8 +139,7 @@
 }
 
 .stat-t {
-  background: white; /* Dark */
-  /*color: rgb(59, 103, 179);*/
+  background: white; 
   padding: 30px;
   margin: 0;
   border-radius: 14px;
@@ -161,24 +158,6 @@
   margin-bottom: 0px;
   color:rgb(59, 103, 179);
 }
-
-/*.filters {
-  margin-bottom: 20px;
-}
-
-.filters button {
-  margin-right: 10px;
-  padding: 8px 14px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  background: #e5e7eb;
-}
-
-.active-tab {
-  background: #2563eb;
-  color: white;
-}*/
 
 .reports {
   display: flex;
@@ -208,7 +187,6 @@
   flex-direction: row;
   gap: 15px;
   align-items: center;
-  /*background: rgb(59, 103, 179, 0.06);*/
   padding: 0px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
@@ -226,25 +204,6 @@
   
 }
 
-/*.status {
-  display: inline-block;
-  margin-top: 8px;
-  padding: 5px 12px;
-  border-radius: 20px;
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.status.resolved {
-  background: #dcfce7;
-  color: #166534;
-}
-
-/*.status.pending {
-  background: #fef9c3;
-  color: #b45309;
-}*/
-
 .status-in-progress {
   display: flex;
   background: #dbeafe;
@@ -259,24 +218,6 @@
 }
 
 .logout-btn {
-  /*width: 96.5%;
-  height: auto;
-  /*padding: 0.8rem;
-  padding:20px;
-  background: linear-gradient(135deg, #0066ff, #00aaff);
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-weight: 600;
-  cursor: pointer;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  margin-right:52px;
-
-  margin-bottom: 6px;
-  margin-right:52px;
-  padding-top: 24px;*/
-
   margin-right: 52px;
   margin-top: 24px;
   margin-bottom: 24px;
