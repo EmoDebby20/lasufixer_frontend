@@ -1,0 +1,141 @@
+.tracking-deet{
+    box-sizing: border-box;
+    min-height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    /*align-items: flex-start;*/
+    margin-top:80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width:100vw;
+    /*justify-content:flex-start; /* Horizontal center 
+    align-items:first baseline;
+    background: white;
+    color: rgb(59, 103, 179);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    width: 100%;
+    text-align: baseline;
+    margin: 0;
+    margin-top:80px;*/
+}
+
+.repor-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    border-left: 5px solid #3b82f6; /* Accent color */
+}
+
+/* Vertical Timeline Logic */
+.timeline {
+    margin-top: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+
+/* The vertical line */
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    bottom: 5px;
+    width: 2px;
+    background: #e5e7eb;
+}
+
+.timeline-item {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.dot {
+    position: absolute;
+    left: -20px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #cbd5e1; /* Default gray */
+    z-index: 1;
+}
+
+/* Colors for progress */
+.completed .dot { background: #10b981; } /* Green */
+.active .dot { background: #3b82f6; box-shadow: 0 0 0 4px #dbeafe; } /* Blue + Glow */
+
+.timeline-item p {
+    font-size: 12px;
+    color: #6b7280;
+    margin: 0;
+}
+
+/* Empty State Styling */
+.empty-container {
+    text-align: center;
+    padding: 50px 20px;
+    color: #64748b;
+}
+
+.filter-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    overflow-x: auto; /* Allows scrolling if buttons are too wide for mobile */
+    padding-bottom: 5px;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid #d1d5db;
+    background: white;
+    color: #4b5563;
+    font-size: 14px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.filter-btn.active {
+    background: #3b82f6;
+    color: white;
+    border-color: #3b82f6;
+}
+
+.fotrack-img{
+  width: 24px;           /* force same size */
+  height: 24px;
+  object-fit: contain;
+  margin-bottom:0px;
+  margin-top:0px;
+}
+
+.back-arrow-track-btn{
+  padding:5px 10px;
+  border-radius: 10px;
+  margin-top:20px;
+  background-color: #dee2e8;
+  align-self: flex-start;
+}
+
+.search-bar-container {
+  padding: 0 20px;
+  margin-bottom: 15px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #004a99; /* LASU Blue */
+}

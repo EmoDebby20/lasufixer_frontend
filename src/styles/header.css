@@ -1,0 +1,61 @@
+.header{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 10;
+
+    position:fixed;
+    top:0px;
+    left:0;
+    right: 0;
+    background-color: rgb(59, 103, 179);
+    
+
+}
+
+.left-section{
+    display: flex;
+    /*align-items: left;*/
+}
+
+.lasufixer-logo{
+    margin-left:52px;
+}
+
+.login-btn{
+    margin-right: 52px;
+    margin-top: 24px;
+    height: auto;
+    background: white;
+    color: rgb(59, 103, 179);
+    border:none;
+    border-radius: 15px;
+    padding:10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.header-logn{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+
+    position:fixed;
+    top:0px;
+    left:0;
+    right: 0;
+    background-color: white;
+}
+
+
+.lasufixer-logo-logn{
+    margin-left:52px;
+}

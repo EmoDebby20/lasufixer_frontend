@@ -1,0 +1,116 @@
+.report-deet {
+  box-sizing: border-box;
+  min-height: 100vh; /* Full screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start; /* Horizontal center */
+  align-items:flex-start;
+  background: white;
+  color: rgb(59, 103, 179);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 40px;
+  width: 100vw;
+  text-align: baseline;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin: 0;
+  margin-top:80px;
+}
+
+.txt{
+  width: 90%;
+  max-width: 600px;
+}
+
+.capture-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+
+    background: #1e90ff;
+    color: white;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.camera-box {
+    width: 320px;
+    height: 240px;
+    /*background-color: #e5e7eb;
+    /* This adds a camera icon as a background image */
+    background-image: url('https://img.icons8.com/?size=100&id=11772&format=png&color=228BE6');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #d1d5db;
+    border-radius: 8px;
+    overflow: hidden; /* Keeps the video inside the rounded corners */
+    position: relative;
+    margin: 20px auto; /* Centers the box on the page */
+    border: 2.6px dashed #e5e7eb;
+}
+
+video, #photoPreview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Makes sure the video fills the whole box */
+    
+}
+
+.button-group {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #5787d5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-group{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* The actual spinner shape */
+.loader {
+  border: 4px solid #f3f3f3; /* Light gray background circle */
+  border-top: 4px solid #3b82f6; /* Blue moving part */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite; /* This makes it rotate */
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* This is the instruction for the rotation animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* A helper class to hide the spinner when not needed */
+.hidden {
+  display: none !important;
+}
+
+.fot-img{
+  width: 24px;           /* force same size */
+  height: 24px;
+  object-fit: contain;
+  margin-bottom:0px;
+  margin-top:0px;
+}
+
+.back-arrow-btn{
+  padding:5px 10px;
+  border-radius: 10px;
+  margin-top:20px;
+  background-color: #dee2e8;
+}

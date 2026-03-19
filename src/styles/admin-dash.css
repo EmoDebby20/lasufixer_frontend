@@ -1,0 +1,235 @@
+.admin-dash{
+  box-sizing: border-box;
+  min-height: 100vh; /* Full screen height */
+  margin: 0;
+  padding-top: 80px;
+  background: rgba(59, 103, 179, 0.5);
+  /*display: flex;
+  flex-direction: column;
+  justify-content:flex-start; /* Horizontal center *
+  align-items:first baseline;
+  background: white;
+  color: rgb(59, 103, 179);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 40px;
+  width: 100%;
+  text-align: baseline;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin: 0;
+  margin-top:80px;*/
+}
+
+.header-admin{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: center;
+    z-index: 1000;
+
+    position:fixed;
+    top:0px;
+    left:0;
+    right: 0;
+    background-color: white;
+}
+
+.mid-section{
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    margin-left:110px;
+    margin-right:750px;
+}
+
+.right-section{
+    display: flex;
+    align-items: end;
+
+}
+
+.lasufixer-logo-admin{
+    padding-left:30px;
+}
+
+
+.sidebar{
+    position:fixed;
+    top:80px;
+    left:0px;
+    bottom:0;
+    width:180px;
+    background-color: white;
+    /*padding-top: 5px;*/
+    cursor: pointer;
+}
+
+.sidebar-link{
+    height:76px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    padding-left: 30px;
+    /*flex-direction: column;*/
+}
+
+.sidebar-link:hover {
+    background-color: rgb(59, 103, 179, 0.1);
+}
+
+.sidebar-link img{
+    height: 30px;
+}
+
+.sidebar-link div{
+    font-family: Roboto, Arial;
+    font-size: 14px;
+}
+
+.admin-card{
+    box-sizing: border-box;
+    display: flex;
+    /*flex-shrink: 0;*/
+    flex-direction: column;
+    margin-left:220px;
+    margin-top:5px;
+    gap:30px;
+    
+}
+
+.card-stat{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /*grid-template-columns: repeat(auto-fit,220px);*/
+    gap:20px;
+}
+
+.admin-stat {
+  /*width: 220px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);*/
+  margin: 0;
+  padding: 0;
+  flex: 0 0 220px;
+  height: 150px;
+  box-sizing: border-box;
+}
+
+/* On screens smaller than 250px (very small phones) */
+@media (max-width: 250px) {
+  .admin-stat {
+    flex: 0 0 100%; /* Take up the full width so it doesn't overflow */
+  }
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto; /* Makes the table scrollable on small mobile screens */
+    margin-top: 20px;
+    /*padding-right:100px;*/
+}
+
+.report-table {
+    width: 80%;
+    border-collapse: collapse; /* Removes double borders */
+    background-color: white;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+/* Header Styling */
+.report-table thead tr {
+    background-color: #f8fafc; /* Very light gray */
+    color: #64748b; /* Muted text color */
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.report-table th, 
+.report-table td {
+    padding: 12px 15px; /* Large padding for readability */
+}
+
+/* Body Styling */
+.report-table tbody tr {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Zebra Striping (Optional: helps the eye stay on one line) */
+.report-table tbody tr:nth-of-type(even) {
+    background-color: #f1f5f9;
+}
+
+/* Hover effect: Makes it feel interactive */
+.report-table tbody tr:hover {
+    background-color: #f1f5f9;
+    cursor: pointer;
+}
+
+/* Buttons inside tables */
+.view-btn {
+    background-color: transparent;
+    border: 1px solid #3b82f6;
+    color: #3b82f6;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.view-btn:hover {
+    background-color: #3b82f6;
+    color: white;
+}
+
+/** {
+  outline: 1px solid red;
+}*/
+
+.stat-header{
+    display: flex;
+    align-items: center;      /* vertical alignment */
+    justify-content: space-between; /* push icon to right */
+}
+
+.stat-icon {
+    width: 20px;
+    height: 20px;
+    background-color:rgb(59, 103, 179, 0.3) ;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.stat-tt {
+  background: white; /* Dark */
+  /*color: rgb(59, 103, 179);*/
+  padding: 20px;
+  margin: 0;
+  border-radius: 14px;
+}
+
+.stat-tnx-admin{
+  font-weight: 700;
+  font-size:20px;
+  padding:0px;
+  margin-bottom: 0px;
+  /*color:rgb(59, 103, 179);*/
+}
+
+.log-out-btn {
+  /*margin-right: 52px;*/
+  margin-top: 24px;
+  margin-bottom: 24px;
+  height: auto;
+  background: linear-gradient(135deg, #0066ff, #00aaff);
+  color: white;
+  border:none;
+  border-radius: 6px;
+  padding:8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}

@@ -1,0 +1,52 @@
+.images-flex{
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+    margin-top:0px;
+    margin-bottom:50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.stu-photo{
+    height: 160px;
+}
+
+.student-photo{
+    height: 180px;
+}
+
+
+.community-row{
+   display:flex; 
+   gap:1rem;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.community-card{
+    position: relative; /* anchor for absolute text */
+    width: 350px; /* control image size */
+}
+
+.community-card img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+.community-text{
+    position: absolute;
+    top: 8px;
+    left: 12px;
+
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+
+    font-weight: 600;
+}
