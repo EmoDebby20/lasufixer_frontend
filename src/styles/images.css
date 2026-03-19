@@ -27,8 +27,8 @@
 }
 
 .community-card{
-    position: relative; /* anchor for absolute text */
-    width: 350px; /* control image size */
+    position: relative; 
+    width: 350px;
 }
 
 .community-card img{

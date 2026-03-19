@@ -1,24 +1,12 @@
 .tracking-deet{
     box-sizing: border-box;
-    min-height: 100vh; /* Full screen height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*align-items: flex-start;*/
     margin-top:80px;
     padding-left: 40px;
     padding-right: 40px;
     width:100vw;
-    /*justify-content:flex-start; /* Horizontal center 
-    align-items:first baseline;
-    background: white;
-    color: rgb(59, 103, 179);
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 40px;
-    width: 100%;
-    text-align: baseline;
-    margin: 0;
-    margin-top:80px;*/
 }
 
 .repor-card {
@@ -27,17 +15,17 @@
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     margin-bottom: 20px;
-    border-left: 5px solid #3b82f6; /* Accent color */
+    border-left: 5px solid #3b82f6; 
 }
 
-/* Vertical Timeline Logic */
+
 .timeline {
     margin-top: 15px;
     padding-left: 20px;
     position: relative;
 }
 
-/* The vertical line */
+
 .timeline::before {
     content: '';
     position: absolute;
@@ -60,13 +48,13 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #cbd5e1; /* Default gray */
+    background: #cbd5e1; 
     z-index: 1;
 }
 
-/* Colors for progress */
-.completed .dot { background: #10b981; } /* Green */
-.active .dot { background: #3b82f6; box-shadow: 0 0 0 4px #dbeafe; } /* Blue + Glow */
+
+.completed .dot { background: #10b981; } 
+.active .dot { background: #3b82f6; box-shadow: 0 0 0 4px #dbeafe; } 
 
 .timeline-item p {
     font-size: 12px;
@@ -74,7 +62,7 @@
     margin: 0;
 }
 
-/* Empty State Styling */
+
 .empty-container {
     text-align: center;
     padding: 50px 20px;
@@ -85,7 +73,7 @@
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
-    overflow-x: auto; /* Allows scrolling if buttons are too wide for mobile */
+    overflow-x: auto; 
     padding-bottom: 5px;
 }
 
@@ -107,7 +95,7 @@
 }
 
 .fotrack-img{
-  width: 24px;           /* force same size */
+  width: 24px;           
   height: 24px;
   object-fit: contain;
   margin-bottom:0px;
@@ -137,5 +125,5 @@
 }
 
 .search-input:focus {
-  border-color: #004a99; /* LASU Blue */
+  border-color: #004a99; 
 }

@@ -130,7 +130,7 @@ p{
 }
 
 .how-deets img{
-    width: 80px;           /* force same size */
+    width: 80px;   
     height: 80px;
     object-fit: contain;
     margin-bottom: 6px;
@@ -157,21 +157,9 @@ p{
     margin-bottom: 0px;
 }
 
-/*.what-heading{
-    max-width: 20ch;
-}*/
-
-/*.what-deet-flex{
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    align-items:flex-start;
-
-}*/
 .what-deet{
     box-sizing: border-box;
     display:flex;
-    /*grid-template-columns: repeat(2, 200px);*/
     gap: 5rem;
     justify-content: center;
     flex-wrap: wrap;
@@ -185,7 +173,7 @@ p{
 }
 
 .what-deets img{
-    width: 60px;           /* force same size */
+    width: 60px;
     height: 60px;
     object-fit: contain;
     margin-bottom: 6px;
@@ -228,7 +216,6 @@ p{
 }
 
 .sect-five{
-    /*background-color: rgb(59, 103, 179);*/
     background: linear-gradient(135deg, #1e3c72, #2a5298, #3b67b3);
 }
 
@@ -270,7 +257,6 @@ p{
     display: flex;
     flex-direction: row;
     gap: 5rem;
-    /*justify-content: center;*/
     align-items:flex-start;
     flex-wrap: wrap;
 }
@@ -299,7 +285,7 @@ p{
 }
 
 .deet img{
-    width: 48px;           /* force same size */
+    width: 48px; 
     height: 48px;
     object-fit: contain;
     margin-bottom: 6px;

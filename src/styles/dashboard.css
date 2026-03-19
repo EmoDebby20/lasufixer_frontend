@@ -34,7 +34,7 @@
 }
 
 .notify-btn{
-  width: 30px;           /* force same size */
+  width: 30px;
   height: 30px;
   object-fit: contain;
   margin-bottom: 6px;
