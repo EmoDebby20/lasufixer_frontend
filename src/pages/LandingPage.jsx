@@ -118,7 +118,7 @@ const LandingPage = ({ goTo }) => (
                   <img className="light-icon"
                   src="homepage-pictures/lightning_icon-preview.png"/>
                   <p className="elect"><strong>Electrical Issues</strong></p>
-                  <p>Faulty lightning, exposed wiring</p>
+                  <p>Faulty lighting, exposed wiring</p>
                 </div>
                                 
    
